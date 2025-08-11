@@ -1,3 +1,13 @@
+import { BrowserRouter, Route, Routes } from "react-router";
+
+import Home from "./pages/Home";
+
 export default function App() {
-  return <div>Justin Klitgaard</div>;
+  return (
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" index element={<Home />} />
+      </Routes>
+    </BrowserRouter>
+  );
 }
