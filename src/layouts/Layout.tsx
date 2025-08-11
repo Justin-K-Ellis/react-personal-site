@@ -5,10 +5,12 @@ import Navbar from "../components/Navbar";
 
 export default function Layout() {
   return (
-    <>
+    <div className="page-wrap">
       <Navbar />
-      <Outlet />
+      <main className="box">
+        <Outlet />
+      </main>
       <Footer />
-    </>
+    </div>
   );
 }
