@@ -18,7 +18,7 @@ export default function Card({
   stack,
 }: CardProps) {
   return (
-    <div className="box card">
+    <div className="box card bg-primary">
       <img src={imgSrc} alt={title} />
       <h3>{title}</h3>
       <p>Role: {role}</p>
