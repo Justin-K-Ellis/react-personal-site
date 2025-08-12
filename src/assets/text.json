@@ -67,5 +67,22 @@
   "contact": {
     "github": "https://github.com/Justin-K-Ellis",
     "linkedin": "https://www.linkedin.com/in/justin-klitgaard-ellis-384b9965/"
+  },
+  "aboutMe": {
+    "para1": "I'm a fullstack software developer living and working in Japan.",
+    "para2": "I first came to Japan as and English teacher in Nagano Prefecture, and then transitioned to developing content for standardized English tests at Benesse, the largest educational company in Japan. While there, I had the opportunity to work on a couple of AI-powered English testing apps, where I was responsible for developing scoring standards for the testing system and gathering and preparing training data for deep learning models. I was also responsible for coordinating (and translating for) our Japanese team at Benesse, partner development companies in Japan, and data scientists in India.",
+    "para3": "This involved using Excel a lot (where I learned to appreciate the power of the function, a good intro to programming in itself), and got me interested in software development in general. I ended up teaching myself Python and was able to automate some work, and then got interested in web development. I learned a lot about fullstack JavaScript  development at The Odin Project, and then decided to challenge myself even further by joining a full-time, intensive programming at Tokyo's Code Chrysalis.",
+    "para4": "It was a tough four months (one month for the online precourse, and three for the on-site immersive course), but I came out able to develop fullstack applications both autonomously and on a team. I also learned a lot about testing and agile work (especially when I lead the development of my group's final project, a big learning experience itself).",
+    "inSum": "I love programming, learning new things, and challenging myself. Feel free to reach out to me if you like to work together.",
+    "other": {
+      "odin": {
+        "description": "A great, open source place to learn about web development in depth.",
+        "link": "https://www.theodinproject.com/"
+      },
+      "CC": {
+        "description": "A programming bootcamp based in Tokyo (sadly no longer doing BtoC courses and focusing on corporate clients!).",
+        "link": "https://www.codechrysalis.io/"
+      }
+    }
   }
 }
