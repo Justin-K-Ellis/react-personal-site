@@ -5,7 +5,7 @@ export default function Portfolio() {
   return (
     <section id="protfolio">
       <h2>Projects</h2>
-      <div className="project-gallery">
+      <div className="md:grid md:grid-cols-3 md:gap-4 flex flex-col gap-2">
         {cardData.map((card) => (
           <Card
             key={card.title}

@@ -9,7 +9,7 @@ export default function Layout() {
       <header>
         <Navbar />
       </header>
-      <main className="flex w-9/10 md:w-6/10 mx-auto grow-1">
+      <main className="flex w-9/10 md:w-7/10 mx-auto grow-1 bg-secondary p-4">
         <Outlet />
       </main>
       <Footer />

@@ -1,3 +1,5 @@
+import LinkStyling from "./LinkStyling";
+
 interface CardProps {
   title: string;
   role: string;
@@ -18,9 +20,9 @@ export default function Card({
   stack,
 }: CardProps) {
   return (
-    <div className="box card bg-primary">
-      <img src={imgSrc} alt={title} />
-      <h3>{title}</h3>
+    <div className="flex flex-col gap-1 p-1 bg-linear-to-bl from-orange-100 to-amber-200 border border-accent rounded shadow hover:shadow-xl">
+      {/* <img src={imgSrc} alt={title} /> */}
+      <h3 className="text-xl font-bold">{title}</h3>
       <p>Role: {role}</p>
       <p>{description}</p>
       <ul>
@@ -29,8 +31,12 @@ export default function Card({
           <li key={tech}>{tech}</li>
         ))}
       </ul>
-      <a href={deploymentLink}>Live Deployment</a>
-      <a href={repoLink}>GitHub Repo</a>
+      <LinkStyling>
+        <a href={deploymentLink}>Live Deployment</a>
+      </LinkStyling>
+      <LinkStyling>
+        <a href={repoLink}>GitHub Repo</a>
+      </LinkStyling>
     </div>
   );
 }
