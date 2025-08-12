@@ -6,7 +6,7 @@ export default function Footer() {
   const name = text.hero.title;
 
   return (
-    <div className="flex flex-col justify-center items-center p-8 bg-primary">
+    <footer className="flex flex-col justify-center items-center p-8 bg-primary">
       <p>
         Copyright {currentYear} {name}
       </p>
@@ -21,6 +21,6 @@ export default function Footer() {
           </LinkStyling>
         </span>
       </p>
-    </div>
+    </footer>
   );
 }
