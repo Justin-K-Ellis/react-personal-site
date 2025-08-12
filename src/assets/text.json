@@ -58,5 +58,10 @@
       "deploymentLink": "",
       "stack": []
     }
+  },
+  "techStack": {
+    "languages": ["JavaScript", "TypeScript", "Python", "SQL"],
+    "frontend": ["React.js", "Next.js", "Vue.js", "Tailwind CSS"],
+    "backend": ["node.js", "Express.js", "PostgreSQL", "Knex.js"]
   }
 }

@@ -4,6 +4,7 @@ import cardData from "../assets/cardData";
 export default function Portfolio() {
   return (
     <section id="protfolio">
+      <h2>Projects</h2>
       <div className="project-gallery">
         {cardData.map((card) => (
           <Card
