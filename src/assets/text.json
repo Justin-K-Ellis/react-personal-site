@@ -31,24 +31,24 @@
     "personalSite": {
       "title": "Personal Site (this page)",
       "imgSrc": "",
-      "description": "",
-      "repoLink": "",
+      "description": "My personal site for sharing my projects, tech stack and info about me.",
+      "repoLink": "https://github.com/Justin-K-Ellis/react-personal-site",
       "deploymentLink": "",
       "stack": []
     },
     "courseManagment": {
       "title": "Course Managment",
       "imgSrc": "",
-      "description": "",
-      "repoLink": "",
+      "description": "A fullstack learning management system that allows users to create, read, update, and delete information about courses, instructors, and students.",
+      "repoLink": "https://github.com/Justin-K-Ellis/course-management",
       "deploymentLink": "",
       "stack": []
     },
     "pokemonMemory": {
       "title": "Pokemon Memory",
       "imgSrc": "",
-      "description": "",
-      "repoLink": "",
+      "description": "A traditional memory game using the PokeAPI for images and Tone.js for audio.",
+      "repoLink": "https://github.com/Justin-K-Ellis/memory-game",
       "deploymentLink": "",
       "stack": []
     }
