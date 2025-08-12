@@ -1,4 +1,5 @@
 import LinkStyling from "./LinkStyling";
+import { SquareArrowOutUpRight, FolderGit } from "lucide-react";
 
 interface CardProps {
   title: string;
@@ -32,10 +33,16 @@ export default function Card({
         ))}
       </ul>
       <LinkStyling>
-        <a href={deploymentLink}>Live Deployment</a>
+        <a href={deploymentLink} className="flex gap-1 items-center">
+          Live Deployment
+          <SquareArrowOutUpRight />
+        </a>
       </LinkStyling>
       <LinkStyling>
-        <a href={repoLink}>GitHub Repo</a>
+        <a href={repoLink} className="flex gap-1 items-center">
+          GitHub Repo
+          <FolderGit />
+        </a>
       </LinkStyling>
     </div>
   );
