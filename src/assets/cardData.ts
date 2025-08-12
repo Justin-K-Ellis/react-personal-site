@@ -4,6 +4,7 @@ import text from "../assets/text.json";
 const cardData: ICard[] = [
   {
     title: text.portfolio.japanEvents.title,
+    role: text.portfolio.japanEvents.role,
     imgSrc: text.portfolio.japanEvents.imgSrc,
     description: text.portfolio.japanEvents.description,
     repoLink: text.portfolio.japanEvents.repoLink,
@@ -12,6 +13,7 @@ const cardData: ICard[] = [
   },
   {
     title: text.portfolio.recipeWrangler.title,
+    role: text.portfolio.recipeWrangler.role,
     imgSrc: text.portfolio.recipeWrangler.imgSrc,
     description: text.portfolio.recipeWrangler.description,
     repoLink: text.portfolio.recipeWrangler.repoLink,
@@ -20,6 +22,7 @@ const cardData: ICard[] = [
   },
   {
     title: text.portfolio.washokuWalker.title,
+    role: text.portfolio.washokuWalker.role,
     imgSrc: text.portfolio.washokuWalker.imgSrc,
     description: text.portfolio.washokuWalker.description,
     repoLink: text.portfolio.washokuWalker.repoLink,
@@ -28,6 +31,7 @@ const cardData: ICard[] = [
   },
   {
     title: text.portfolio.personalSite.title,
+    role: text.portfolio.personalSite.role,
     imgSrc: text.portfolio.personalSite.imgSrc,
     description: text.portfolio.personalSite.description,
     repoLink: text.portfolio.personalSite.repoLink,
@@ -36,6 +40,7 @@ const cardData: ICard[] = [
   },
   {
     title: text.portfolio.courseManagment.title,
+    role: text.portfolio.courseManagment.role,
     imgSrc: text.portfolio.courseManagment.imgSrc,
     description: text.portfolio.courseManagment.description,
     repoLink: text.portfolio.courseManagment.repoLink,
@@ -44,6 +49,7 @@ const cardData: ICard[] = [
   },
   {
     title: text.portfolio.pokemonMemory.title,
+    role: text.portfolio.pokemonMemory.role,
     imgSrc: text.portfolio.pokemonMemory.imgSrc,
     description: text.portfolio.pokemonMemory.description,
     repoLink: text.portfolio.pokemonMemory.repoLink,

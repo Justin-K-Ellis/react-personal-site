@@ -33,6 +33,24 @@ nav {
   gap: 1rem;
 }
 
+.home-page {
+  display: flex;
+  flex-direction: column;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding: 0.5rem;
+}
+
+.project-gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+
 #hero {
   display: flex;
   flex-direction: row;

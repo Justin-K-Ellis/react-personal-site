@@ -9,8 +9,10 @@ export default function Portfolio() {
           <Card
             key={card.title}
             title={card.title}
+            role={card.role}
             imgSrc={card.imgSrc}
             description={card.description}
+            stack={card.stack}
             repoLink={card.repoLink}
             deploymentLink={card.deploymentLink}
           />

@@ -6,14 +6,16 @@
   "portfolio": {
     "japanEvents": {
       "title": "Japan Events",
+      "role": "Project Manager, Fullstack developer",
       "imgSrc": "",
       "description": "An app that indexes events from around Japan and let's users find them with a rich search interface, save interesting events, and anonymously share them.",
       "repoLink": "https://github.com/Event-Curator/event-curator",
       "deploymentLink": "eventsjp.com",
-      "stack": []
+      "stack": ["React", "React Router", "Express", "PostgreSQL"]
     },
     "recipeWrangler": {
       "title": "Recipe Wrangler",
+      "role": "Fullstack developer",
       "imgSrc": "",
       "description": "Allows users to search for recipes, creates check lists for ingredients and cooking directions. Logged in users can also save recipes and create their own.",
       "repoLink": "https://github.com/Justin-K-Ellis/recipe_wrangler_client",
@@ -22,6 +24,7 @@
     },
     "washokuWalker": {
       "title": "Washoku Walker",
+      "role": "Fullstack developer",
       "imgSrc": "",
       "description": "Helps users find great restaurants in Japan. Users who want to find a specific food can get a selection of restaurants by dish and area, or get a list of highly-rated restaurants near them.",
       "repoLink": "https://github.com/Justin-K-Ellis/Washoku-Walker",
@@ -30,6 +33,7 @@
     },
     "personalSite": {
       "title": "Personal Site (this page)",
+      "role": "Fullstack developer",
       "imgSrc": "",
       "description": "My personal site for sharing my projects, tech stack and info about me.",
       "repoLink": "https://github.com/Justin-K-Ellis/react-personal-site",
@@ -38,6 +42,7 @@
     },
     "courseManagment": {
       "title": "Course Managment",
+      "role": "Fullstack developer",
       "imgSrc": "",
       "description": "A fullstack learning management system that allows users to create, read, update, and delete information about courses, instructors, and students.",
       "repoLink": "https://github.com/Justin-K-Ellis/course-management",
@@ -46,6 +51,7 @@
     },
     "pokemonMemory": {
       "title": "Pokemon Memory",
+      "role": "Frontend developer",
       "imgSrc": "",
       "description": "A traditional memory game using the PokeAPI for images and Tone.js for audio.",
       "repoLink": "https://github.com/Justin-K-Ellis/memory-game",
