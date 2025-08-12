@@ -4,6 +4,7 @@ interface ICard {
   description: string;
   repoLink: string;
   deploymentLink: string;
+  stack: string[];
 }
 
 export type { ICard };
