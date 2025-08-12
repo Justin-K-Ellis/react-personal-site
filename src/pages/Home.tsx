@@ -5,7 +5,7 @@ import Contact from "../components/Contact";
 
 export default function Home() {
   return (
-    <div className="home-page">
+    <div className="flex flex-col">
       <Hero />
       <Portfolio />
       <TechStack />

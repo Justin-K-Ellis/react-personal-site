@@ -1,15 +1,24 @@
 import text from "../assets/text.json";
+import LinkStyling from "./LinkStyling";
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
+  const name = text.hero.title;
 
   return (
-    <div className="box">
-      <p>Copyright {currentYear}</p>
+    <div className="flex flex-col justify-center items-center p-8 bg-primary">
       <p>
-        <span>
-          <a href={text.contact.github}>GitHub</a>|
-          <a href={text.contact.linkedin}>LinkedIn</a>
+        Copyright {currentYear} {name}
+      </p>
+      <p>
+        <span className="flex gap-2">
+          <LinkStyling>
+            <a href={text.contact.github}>GitHub</a>
+          </LinkStyling>
+          <>|</>
+          <LinkStyling>
+            <a href={text.contact.linkedin}>LinkedIn</a>
+          </LinkStyling>
         </span>
       </p>
     </div>

@@ -5,9 +5,9 @@ import Navbar from "../components/Navbar";
 
 export default function Layout() {
   return (
-    <div className="page-wrap">
+    <div className="flex flex-col min-h-screen">
       <Navbar />
-      <main className="box">
+      <main className="flex w-9/10 md:w-6/10 mx-auto grow-1">
         <Outlet />
       </main>
       <Footer />

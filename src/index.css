@@ -3,11 +3,15 @@
 @theme {
   --color-base: oklch(98.7% 0.026 102.212);
   --color-primary: oklch(96.2% 0.059 95.617);
-  --color-secondar: oklch(55.4% 0.135 66.442);
+  --color-secondary: oklch(97% 0.001 106.424);
   --color-accent: oklch(27.9% 0.077 45.635);
 }
 
-* {
+/* a {
+  @apply: text-accent underline hover: text-secondary;
+} */
+
+/* * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -18,21 +22,21 @@ main {
   width: 60%;
   margin: 0 auto;
   flex-grow: 1;
-}
+} 
 
-nav {
+ nav {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-}
+} */
 
-.page-wrap {
+/* .page-wrap {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-}
+} */
 
-.box {
+/* .box {
   padding: 1rem;
   border: 1px solid black;
 }
@@ -72,4 +76,4 @@ nav {
   justify-content: space-around;
   padding-top: 4rem;
   padding-bottom: 4rem;
-}
+}  */
