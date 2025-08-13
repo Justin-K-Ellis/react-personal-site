@@ -14,6 +14,9 @@ export default function TechStack() {
   return (
     <section id="tech-stack">
       <Title text="Tech Stack" />
+      <p className="text-center mb-2 md:mb-4 md:text-xl">
+        I'm capable in these languages and technologies:
+      </p>
       <SubTitle text="Languages" />
       <TechStackGallery tech={stack.languages} />
       <SubTitle text="Frontend Technologies" />
