@@ -21,7 +21,7 @@ export default function Card({
   stack,
 }: CardProps) {
   return (
-    <div className="flex flex-col gap-1 p-1 bg-linear-to-bl from-orange-100 to-amber-200 border border-accent rounded shadow hover:shadow-xl">
+    <div className="flex flex-col gap-1 p-1 bg-white border-accent rounded shadow hover:shadow-xl">
       {/* <img src={imgSrc} alt={title} /> */}
       <h3 className="text-xl font-bold">{title}</h3>
       <p>Role: {role}</p>
