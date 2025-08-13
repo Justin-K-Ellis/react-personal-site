@@ -15,9 +15,9 @@ export default function Navbar() {
         <LinkStyling>
           <Link to={"/about"}>About Me</Link>
         </LinkStyling>
-        <LinkStyling>
+        {/* <LinkStyling>
           <Link to={"/resume"}>Resume</Link>
-        </LinkStyling>
+        </LinkStyling> */}
       </div>
     </nav>
   );
