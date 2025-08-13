@@ -1,10 +1,10 @@
+import TechCard from "./TechCard";
+
 export default function TechStackGallery({ tech }: { tech: string[] }) {
   return (
-    <div className="tech-stack-gallery box">
+    <div className="flex flex-col md:flex-row gap-2 mt-4 mb-8">
       {tech.map((t) => (
-        <div key={t} className="box">
-          {t}
-        </div>
+        <TechCard key={t} text={t} />
       ))}
     </div>
   );

@@ -3,6 +3,10 @@ import { Separator } from "@/components/ui/separator";
 import text from "../assets/text.json";
 import TechStackGallery from "./TechStackGallery";
 import Title from "./Title";
+import SubTitle from "./SubTitle";
+
+import { languages } from "../assets/techStackData";
+console.log(languages);
 
 const stack = text.techStack;
 
@@ -10,13 +14,14 @@ export default function TechStack() {
   return (
     <section id="tech-stack">
       <Title text="Tech Stack" />
-      <h3>Languages</h3>
+      <SubTitle text="Languages" />
       <TechStackGallery tech={stack.languages} />
-      <h3>Frontend</h3>
+      <SubTitle text="Frontend Technologies" />
       <TechStackGallery tech={stack.frontend} />
-      <h3>Backend</h3>
+      <SubTitle text="Backend Technologies" />
       <TechStackGallery tech={stack.backend} />
       <Separator className="my-4 md:my-8" />
+      <svg></svg>
     </section>
   );
 }
