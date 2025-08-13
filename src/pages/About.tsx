@@ -1,42 +1,82 @@
+import {
+  Card,
+  CardContent,
+  CardFooter,
+  CardHeader,
+  CardTitle,
+} from "@/components/ui/card";
+
+import LinkStyling from "@/components/LinkStyling";
 import text from "../assets/text.json";
 const about = text.aboutMe;
 
 export default function About() {
   return (
-    <>
+    <div className="flex flex-col gap-4">
       {/* Main stuff */}
       <section id="about-me">
-        <h1>About Me</h1>
-        <p>{about.para1}</p>
-        <p>{about.para2}</p>
-        <p>{about.para3}</p>
-        <p>{about.para4}</p>
-        <h2>In Sum:</h2>
-        <p>{about.inSum}</p>
-        <ul>
-          <li>
-            <a href={text.contact.linkedin}>LinkedIn</a>
-          </li>
-          <li>
-            <a href={text.contact.github}>GitHub</a>
-          </li>
-        </ul>
+        <Card>
+          <CardHeader>
+            <CardTitle>
+              <h2>About Me</h2>
+            </CardTitle>
+          </CardHeader>
+          <CardContent className="flex flex-col gap-2">
+            <p className="text-justify">{about.para1}</p>
+            <p className="text-justify">{about.para2}</p>
+            <p className="text-justify">{about.para3}</p>
+            <p className="text-justify">{about.para4}</p>
+            <h3 className="font-bold">In Sum:</h3>
+            <p className="text-justify">{about.inSum}</p>
+          </CardContent>
+          <CardFooter>
+            <ul>
+              <li>
+                <LinkStyling>
+                  <a href={text.contact.linkedin}>LinkedIn</a>
+                </LinkStyling>
+              </li>
+              <LinkStyling>
+                <li>
+                  <a href={text.contact.github}>GitHub</a>
+                </li>
+              </LinkStyling>
+            </ul>
+          </CardFooter>
+        </Card>
       </section>
 
       {/* Reference links */}
       <section id="links">
-        <h3>References</h3>
-        <div>
-          <p>The Odin Project</p>
-          <p>{about.other.odin.description}</p>
-          <a href={about.other.odin.link}>Link</a>
-        </div>
-        <div>
-          <p>Code Chrysalis</p>
-          <p>{about.other.CC.description}</p>
-          <a href={about.other.CC.link}>Link</a>
-        </div>
+        <Card>
+          <CardHeader>
+            <CardTitle>
+              <h3>References</h3>
+            </CardTitle>
+          </CardHeader>
+          <CardContent>
+            <ul className="list-disc ml-4">
+              <li>
+                <p className="font-bold">The Odin Project</p>
+                <p>{about.other.odin.description}</p>
+                <LinkStyling>
+                  <a href={about.other.odin.link}>Link</a>
+                </LinkStyling>
+              </li>
+              <li>
+                <p className="font-bold">Code Chrysalis</p>
+                <p>{about.other.CC.description}</p>
+                <LinkStyling>
+                  <a href={about.other.CC.link}>Link</a>
+                </LinkStyling>
+              </li>
+            </ul>
+          </CardContent>
+        </Card>
+
+        <div></div>
+        <div></div>
       </section>
-    </>
+    </div>
   );
 }
