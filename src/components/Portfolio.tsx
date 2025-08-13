@@ -1,3 +1,5 @@
+import { Separator } from "@/components/ui/separator";
+
 import ProjectCard from "./ProjectCard";
 import Title from "./Title";
 import cardData from "../assets/cardData";
@@ -20,6 +22,7 @@ export default function Portfolio() {
           />
         ))}
       </div>
+      <Separator className="my-4 md:my-8" />
     </section>
   );
 }

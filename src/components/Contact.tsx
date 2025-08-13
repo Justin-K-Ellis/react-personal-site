@@ -1,9 +1,10 @@
 import text from "../assets/text.json";
+import Title from "./Title";
 
 export default function Contact() {
   return (
     <section id="contact">
-      <h2>Contact Me</h2>
+      <Title text="Contact Me" />
       <p>
         <a href={text.contact.github}>GitHub</a>
       </p>
