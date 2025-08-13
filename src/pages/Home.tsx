@@ -1,4 +1,3 @@
-import Hero from "../components/Hero";
 import Portfolio from "../components/Portfolio";
 import TechStack from "../components/TechStack";
 import Contact from "../components/Contact";

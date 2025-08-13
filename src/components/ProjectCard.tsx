@@ -30,6 +30,8 @@ export default function ProjectCard({
   deploymentLink,
   stack,
 }: ProjectCardProps) {
+  console.info(imgSrc);
+
   return (
     <Card className="hover:shadow-2xl">
       <CardHeader>

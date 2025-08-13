@@ -8,4 +8,9 @@ interface ICard {
   stack: string[];
 }
 
-export type { ICard };
+interface ITech {
+  name: string;
+  logo?: SVGElement | string;
+}
+
+export type { ICard, ITech };
