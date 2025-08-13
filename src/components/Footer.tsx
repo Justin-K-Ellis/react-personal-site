@@ -6,7 +6,7 @@ export default function Footer() {
   const name = text.hero.title;
 
   return (
-    <footer className="flex flex-col justify-center items-center p-8 bg-primary">
+    <footer className="flex flex-col justify-center items-center p-8 bg-linear-to-bl from-yellow-200 to-amber-100">
       <p>
         Copyright {currentYear} {name}
       </p>
