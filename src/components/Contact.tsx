@@ -1,16 +1,41 @@
+import {
+  Card,
+  CardAction,
+  CardContent,
+  CardDescription,
+  CardFooter,
+  CardHeader,
+  CardTitle,
+} from "@/components/ui/card";
+
 import text from "../assets/text.json";
 import Title from "./Title";
+import LinkStyling from "./LinkStyling";
 
 export default function Contact() {
   return (
-    <section id="contact">
+    <section id="contact" className="mb-8 md:mb-16">
       <Title text="Contact Me" />
-      <p>
-        <a href={text.contact.github}>GitHub</a>
-      </p>
-      <p>
-        <a href={text.contact.linkedin}>LinkedIn</a>
-      </p>
+      <Card>
+        <CardContent className="p-2">
+          <ul className="flex flex-col justify-center items-center gap-2">
+            <li>
+              <LinkStyling>
+                <a href={text.contact.github} className="text-xl underline">
+                  GitHub
+                </a>
+              </LinkStyling>
+            </li>
+            <li>
+              <LinkStyling>
+                <a href={text.contact.linkedin} className="text-xl underline">
+                  LinkedIn
+                </a>
+              </LinkStyling>
+            </li>
+          </ul>
+        </CardContent>
+      </Card>
     </section>
   );
 }
