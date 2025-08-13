@@ -1,4 +1,4 @@
-import Card from "./Card";
+import ProjectCard from "./ProjectCard";
 import cardData from "../assets/cardData";
 
 export default function Portfolio() {
@@ -7,7 +7,7 @@ export default function Portfolio() {
       <h2>Projects</h2>
       <div className="md:grid md:grid-cols-3 md:gap-4 flex flex-col gap-2">
         {cardData.map((card) => (
-          <Card
+          <ProjectCard
             key={card.title}
             title={card.title}
             role={card.role}
