@@ -11,7 +11,14 @@
       "description": "An app that indexes events from around Japan and let's users find them with a rich search interface, save interesting events, and anonymously share them.",
       "repoLink": "https://github.com/Event-Curator/event-curator",
       "deploymentLink": "eventsjp.com",
-      "stack": ["React", "React Router", "Tailwind", "Express", "PostgreSQL"]
+      "stack": [
+        "React",
+        "React Router",
+        "Tailwind",
+        "Express",
+        "PostgreSQL",
+        "Knex.js"
+      ]
     },
     "recipeWrangler": {
       "title": "Recipe Wrangler",
@@ -29,16 +36,23 @@
       "description": "Helps users find great restaurants in Japan. Users who want to find a specific food can get a selection of restaurants by dish and area, or get a list of highly-rated restaurants near them.",
       "repoLink": "https://github.com/Justin-K-Ellis/Washoku-Walker",
       "deploymentLink": "https://washoku-walker.onrender.com/",
-      "stack": ["Vue", "Tailwind", "Express", "PostgreSQL", "Knex.js"]
+      "stack": [
+        "Vue",
+        "Vue Router",
+        "Tailwind",
+        "Express",
+        "PostgreSQL",
+        "Knex.js"
+      ]
     },
     "personalSite": {
-      "title": "Personal Site (this page)",
-      "role": "Fullstack developer",
+      "title": "Personal Site (this site)",
+      "role": "Frontend developer",
       "imgSrc": "",
       "description": "My personal site for sharing my projects, tech stack and info about me.",
       "repoLink": "https://github.com/Justin-K-Ellis/react-personal-site",
       "deploymentLink": "",
-      "stack": []
+      "stack": ["React", "React Router", "Tailwind", "shadcn/ui"]
     },
     "courseManagment": {
       "title": "Course Managment",
@@ -47,7 +61,7 @@
       "description": "A fullstack learning management system that allows users to create, read, update, and delete information about courses, instructors, and students.",
       "repoLink": "https://github.com/Justin-K-Ellis/course-management",
       "deploymentLink": "",
-      "stack": []
+      "stack": ["React", "React Router", "Express", "PostgreSQL"]
     },
     "pokemonMemory": {
       "title": "Pokemon Memory",
@@ -56,7 +70,7 @@
       "description": "A traditional memory game using the PokeAPI for images and Tone.js for audio.",
       "repoLink": "https://github.com/Justin-K-Ellis/memory-game",
       "deploymentLink": "",
-      "stack": []
+      "stack": ["React", "Tailwind"]
     }
   },
   "techStack": {
