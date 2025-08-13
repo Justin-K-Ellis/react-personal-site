@@ -13,7 +13,7 @@ export default function Layout() {
           <Hero />
         </div>
       </header>
-      <main className="flex w-9/10 md:w-7/10 mx-auto grow-1 p-4">
+      <main className="flex w-full md:w-7/10 mx-auto grow-1 p-4">
         <Outlet />
       </main>
       <Footer />

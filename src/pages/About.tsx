@@ -18,7 +18,7 @@ export default function About() {
         <Card>
           <CardHeader>
             <CardTitle>
-              <h2>About Me</h2>
+              <h2 className="text-3xl">About Me</h2>
             </CardTitle>
           </CardHeader>
           <CardContent className="flex flex-col gap-2">
