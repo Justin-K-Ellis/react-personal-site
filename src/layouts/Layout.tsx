@@ -9,7 +9,7 @@ export default function Layout() {
     <div className="flex flex-col min-h-screen bg-secondary">
       <header>
         <Navbar />
-        <div className="w-full bg-white py-10">
+        <div className="w-full bg-white py-5 md:py-10">
           <Hero />
         </div>
       </header>
