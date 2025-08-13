@@ -36,20 +36,22 @@ export default function ProjectCard({
         <CardTitle>{title}</CardTitle>
         <CardDescription>{role}</CardDescription>
       </CardHeader>
-      <CardContent>
-        <p>{description}</p>
-        <LinkStyling>
-          <a href={deploymentLink} className="flex gap-1 items-center">
-            Live Deployment
-            <SquareArrowOutUpRight />
-          </a>
-        </LinkStyling>
-        <LinkStyling>
-          <a href={repoLink} className="flex gap-1 items-center">
-            GitHub Repo
-            <FolderGit />
-          </a>
-        </LinkStyling>
+      <CardContent className="flex flex-col gap-2">
+        <p className="text-justify">{description}</p>
+        <div>
+          <LinkStyling>
+            <a href={deploymentLink} className="flex gap-1 items-center">
+              Live Deployment
+              <SquareArrowOutUpRight />
+            </a>
+          </LinkStyling>
+          <LinkStyling>
+            <a href={repoLink} className="flex gap-1 items-center">
+              GitHub Repo
+              <FolderGit />
+            </a>
+          </LinkStyling>
+        </div>
       </CardContent>
 
       <CardFooter>
