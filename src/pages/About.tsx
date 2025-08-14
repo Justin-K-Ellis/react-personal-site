@@ -55,7 +55,7 @@ export default function About() {
             </CardTitle>
           </CardHeader>
           <CardContent>
-            <ul className="list-disc ml-4">
+            <ul className="list-disc ml-4 flex flex-col gap-2">
               <li>
                 <p className="font-bold">The Odin Project</p>
                 <p>{about.other.odin.description}</p>
