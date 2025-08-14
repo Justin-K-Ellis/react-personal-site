@@ -15,9 +15,11 @@
         "React",
         "React Router",
         "Tailwind",
+        "daisyUI",
         "Express",
         "PostgreSQL",
-        "Knex.js"
+        "Knex.js",
+        "RxDB"
       ]
     },
     "recipeWrangler": {
@@ -27,7 +29,15 @@
       "description": "Allows users to search for recipes, creates check lists for ingredients and cooking directions. Logged in users can also save recipes and create their own.",
       "repoLink": "https://github.com/Justin-K-Ellis/recipe_wrangler_client",
       "deploymentLink": "https://recipe-wrangler-client.vercel.app/home",
-      "stack": ["React", "Next.js", "Express", "PostgreSQL", "Knex.js"]
+      "stack": [
+        "React",
+        "Next.js",
+        "Tailwind",
+        "daisyUI",
+        "Express",
+        "PostgreSQL",
+        "Knex.js"
+      ]
     },
     "washokuWalker": {
       "title": "Washoku Walker",
@@ -40,6 +50,7 @@
         "Vue",
         "Vue Router",
         "Tailwind",
+        "daisyUI",
         "Express",
         "PostgreSQL",
         "Knex.js"
@@ -61,16 +72,16 @@
       "description": "A fullstack learning management system that allows users to create, read, update, and delete information about courses, instructors, and students.",
       "repoLink": "https://github.com/Justin-K-Ellis/course-management",
       "deploymentLink": "",
-      "stack": ["React", "React Router", "Express", "PostgreSQL"]
+      "stack": ["React", "React Router", "Tailwind", "Express", "PostgreSQL"]
     },
     "pokemonMemory": {
-      "title": "Pokemon Memory",
+      "title": "Nagano Quest",
       "role": "Frontend developer",
       "imgSrc": "",
-      "description": "A traditional memory game using the PokeAPI for images and Tone.js for audio.",
-      "repoLink": "https://github.com/Justin-K-Ellis/memory-game",
-      "deploymentLink": "",
-      "stack": ["React", "Tailwind"]
+      "description": "A fun little choose your own adventure game that takes users through Nagano Prefecture, Japan.",
+      "repoLink": "https://github.com/Justin-K-Ellis/NaganoQuest.js",
+      "deploymentLink": "https://nagano-quest-js.vercel.app/",
+      "stack": ["React", "React Router", "Tailwind"]
     }
   },
   "contact": {
