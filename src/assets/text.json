@@ -11,7 +11,7 @@
       "imgSrc": "",
       "description": "An app that indexes events from around Japan and let's users find them with a rich search interface, save interesting events, and anonymously share them.",
       "repoLink": "https://github.com/Event-Curator/event-curator",
-      "deploymentLink": "eventsjp.com",
+      "deploymentLink": "https://eventsjp.com",
       "stack": [
         "React",
         "React Router",
