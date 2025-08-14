@@ -1,3 +1,5 @@
+import type { IconType } from "react-icons/lib";
+
 interface ICard {
   title: string;
   role: string;
@@ -10,7 +12,7 @@ interface ICard {
 
 interface ITech {
   name: string;
-  logo?: SVGElement | string;
+  logo: IconType;
 }
 
 export type { ICard, ITech };

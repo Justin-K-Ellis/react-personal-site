@@ -73,11 +73,6 @@
       "stack": ["React", "Tailwind"]
     }
   },
-  "techStack": {
-    "languages": ["JavaScript", "TypeScript", "Python", "SQL"],
-    "frontend": ["React.js", "Next.js", "Vue.js", "Tailwind CSS"],
-    "backend": ["node.js", "Express.js", "PostgreSQL", "Knex.js"]
-  },
   "contact": {
     "github": "https://github.com/Justin-K-Ellis",
     "linkedin": "https://www.linkedin.com/in/justin-klitgaard-ellis-384b9965/"

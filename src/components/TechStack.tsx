@@ -1,14 +1,9 @@
 import { Separator } from "@/components/ui/separator";
 
-import text from "../assets/text.json";
 import TechStackGallery from "./TechStackGallery";
 import Title from "./Title";
 import SubTitle from "./SubTitle";
-
-import { languages } from "../assets/techStackData";
-console.log(languages);
-
-const stack = text.techStack;
+import { languages, frontend, backend } from "../assets/techStackData";
 
 export default function TechStack() {
   return (
@@ -18,11 +13,11 @@ export default function TechStack() {
         I'm capable in these languages and technologies:
       </p>
       <SubTitle text="Languages" />
-      <TechStackGallery tech={stack.languages} />
+      <TechStackGallery tech={languages} />
       <SubTitle text="Frontend Technologies" />
-      <TechStackGallery tech={stack.frontend} />
+      <TechStackGallery tech={frontend} />
       <SubTitle text="Backend Technologies" />
-      <TechStackGallery tech={stack.backend} />
+      <TechStackGallery tech={backend} />
       <Separator className="my-4 md:my-8" />
       <svg></svg>
     </section>

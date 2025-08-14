@@ -6,7 +6,8 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
-import { SquareArrowOutUpRight, FolderGit } from "lucide-react";
+
+import { FaGithub, FaLink } from "react-icons/fa";
 
 import LinkStyling from "./LinkStyling";
 import StackAccordion from "./StackAccordion";
@@ -44,13 +45,13 @@ export default function ProjectCard({
           <LinkStyling>
             <a href={deploymentLink} className="flex gap-1 items-center">
               Live Deployment
-              <SquareArrowOutUpRight />
+              <FaLink />
             </a>
           </LinkStyling>
           <LinkStyling>
             <a href={repoLink} className="flex gap-1 items-center">
               GitHub Repo
-              <FolderGit />
+              <FaGithub />
             </a>
           </LinkStyling>
         </div>
