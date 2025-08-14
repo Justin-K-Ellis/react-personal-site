@@ -1,4 +1,5 @@
 import { Card, CardContent } from "@/components/ui/card";
+import { SiLinkedin, SiGithub } from "react-icons/si";
 
 import text from "../assets/text.json";
 import Title from "./Title";
@@ -13,15 +14,23 @@ export default function Contact() {
           <ul className="flex flex-col justify-center items-center gap-2">
             <li>
               <LinkStyling>
-                <a href={text.contact.github} className="text-xl underline">
+                <a
+                  href={text.contact.github}
+                  className="text-xl underline flex gap-1 items-center"
+                >
                   GitHub
+                  <SiGithub />
                 </a>
               </LinkStyling>
             </li>
             <li>
               <LinkStyling>
-                <a href={text.contact.linkedin} className="text-xl underline">
+                <a
+                  href={text.contact.linkedin}
+                  className="text-xl underline flex gap-1 items-center"
+                >
                   LinkedIn
+                  <SiLinkedin />
                 </a>
               </LinkStyling>
             </li>
