@@ -7,9 +7,12 @@ import LinkStyling from "./LinkStyling";
 
 export default function Contact() {
   return (
-    <section id="contact" className="mb-8 md:mb-16">
+    <section
+      id="contact"
+      className="mb-8 md:mb-16 w-full flex flex-col justify-center items-center"
+    >
       <Title text="Contact Me" />
-      <Card>
+      <Card className="w-full md:w-2/3">
         <CardContent className="p-2">
           <ul className="flex flex-col justify-center items-center gap-2">
             <li>

@@ -6,10 +6,14 @@ import Blurb from "@/components/Blurb";
 export default function Home() {
   return (
     <div className="flex flex-col">
-      <Blurb />
+      <div className="flex justify-center">
+        <Blurb />
+      </div>
       <Portfolio />
       <TechStack />
+      {/* <div className="flex justify-center"> */}
       <Contact />
+      {/* </div> */}
     </div>
   );
 }

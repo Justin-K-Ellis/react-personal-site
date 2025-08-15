@@ -19,7 +19,6 @@ export default function TechStack() {
       <SubTitle text="Backend Technologies" />
       <TechStackGallery tech={backend} />
       <Separator className="my-4 md:my-8" />
-      <svg></svg>
     </section>
   );
 }
