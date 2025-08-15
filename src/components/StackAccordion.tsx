@@ -18,7 +18,12 @@ export default function StackAccordion({ stack }: StackAccordionProps) {
         <AccordionContent>
           <ul className="flex gap-1 flex-wrap">
             {stack.map((tech) => (
-              <Badge key={tech}>{tech}</Badge>
+              <Badge
+                className="text-black bg-linear-to-bl from-amber-200 to-yellow-100 shadow-sm"
+                key={tech}
+              >
+                {tech}
+              </Badge>
             ))}
           </ul>
         </AccordionContent>
