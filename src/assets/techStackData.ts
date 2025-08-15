@@ -5,10 +5,12 @@ import {
   SiNextdotjs,
   SiNodedotjs,
   SiPostgresql,
+  SiPrisma,
   SiPython,
   SiReact,
   SiTailwindcss,
   SiTypescript,
+  SiVite,
   SiVuedotjs,
 } from "react-icons/si";
 import { BsDatabase } from "react-icons/bs";
@@ -51,6 +53,10 @@ const frontend: ITech[] = [
     name: "Tailwind CSS",
     logo: SiTailwindcss,
   },
+  {
+    name: "Vite",
+    logo: SiVite,
+  },
 ];
 
 const backend: ITech[] = [
@@ -69,6 +75,10 @@ const backend: ITech[] = [
   {
     name: "Knex.js",
     logo: SiKnexdotjs,
+  },
+  {
+    name: "Prisma",
+    logo: SiPrisma,
   },
 ];
 
