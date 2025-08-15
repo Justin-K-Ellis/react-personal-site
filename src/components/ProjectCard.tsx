@@ -15,7 +15,6 @@ import StackAccordion from "./StackAccordion";
 interface ProjectCardProps {
   title: string;
   role: string;
-  imgSrc: string;
   description: string;
   repoLink: string;
   deploymentLink: string;
@@ -25,14 +24,11 @@ interface ProjectCardProps {
 export default function ProjectCard({
   title,
   role,
-  imgSrc,
   description,
   repoLink,
   deploymentLink,
   stack,
 }: ProjectCardProps) {
-  console.info(imgSrc);
-
   return (
     <Card className="hover:shadow-2xl">
       <CardHeader>

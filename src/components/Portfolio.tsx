@@ -14,7 +14,6 @@ export default function Portfolio() {
             key={card.title}
             title={card.title}
             role={card.role}
-            imgSrc={card.imgSrc}
             description={card.description}
             stack={card.stack}
             repoLink={card.repoLink}
