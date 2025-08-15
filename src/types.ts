@@ -6,7 +6,7 @@ interface ICard {
   imgSrc: string;
   description: string;
   repoLink: string;
-  deploymentLink: string;
+  deploymentLink?: string;
   stack: string[];
 }
 

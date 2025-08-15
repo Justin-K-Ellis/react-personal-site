@@ -42,12 +42,14 @@ export default function ProjectCard({
       <CardContent className="flex flex-col gap-2">
         <p className="text-justify">{description}</p>
         <div>
-          <LinkStyling>
-            <a href={deploymentLink} className="flex gap-1 items-center">
-              Live Deployment
-              <FaLink />
-            </a>
-          </LinkStyling>
+          {deploymentLink.length > 0 && (
+            <LinkStyling>
+              <a href={deploymentLink} className="flex gap-1 items-center">
+                Live Deployment
+                <FaLink />
+              </a>
+            </LinkStyling>
+          )}
           <LinkStyling>
             <a href={repoLink} className="flex gap-1 items-center">
               GitHub Repo
