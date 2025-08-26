@@ -1,3 +1,4 @@
+import { Button } from "@/components/ui/button";
 import {
   Card,
   CardContent,
@@ -37,21 +38,21 @@ export default function ProjectCard({
       </CardHeader>
       <CardContent className="flex flex-col gap-2">
         <p className="text-justify">{description}</p>
-        <div>
+        <div id="links" className="flex gap-1 mt-2">
           {deploymentLink.length > 0 && (
-            <LinkStyling>
+            <Button className="p-2 shadow-lg rounded">
               <a href={deploymentLink} className="flex gap-1 items-center">
                 Live Deployment
                 <FaLink />
               </a>
-            </LinkStyling>
+            </Button>
           )}
-          <LinkStyling>
+          <Button className="p-2 shadow-lg rounded">
             <a href={repoLink} className="flex gap-1 items-center">
               GitHub Repo
               <FaGithub />
             </a>
-          </LinkStyling>
+          </Button>
         </div>
       </CardContent>
 
