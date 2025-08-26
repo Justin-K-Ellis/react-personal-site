@@ -6,7 +6,7 @@ import Hero from "../components/Hero";
 
 export default function Layout() {
   return (
-    <div className="flex flex-col min-h-screen bg-secondary">
+    <div className="flex flex-col min-h-screen bg-background">
       <header>
         <Navbar />
         <div className="w-full bg-white pb-4 pt-16 md:pb-8 md:pt-24">

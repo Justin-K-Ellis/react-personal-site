@@ -11,7 +11,7 @@ export default function TechCard({ name, Logo }: TechCardProps) {
     <Card className="grow-1 hover:shadow-2xl">
       <CardHeader>
         <CardTitle className="text-center flex justify-center items-center gap-2">
-          <Logo className="text-2xl text-amber-300" />
+          <Logo className="text-2xl text-primary" />
           <p className="text-xl">{name}</p>
         </CardTitle>
       </CardHeader>

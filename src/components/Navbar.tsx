@@ -4,7 +4,7 @@ import LinkStyling from "./LinkStyling";
 
 export default function Navbar() {
   return (
-    <nav className="fixed w-full shadow flex justify-between items-center bg-linear-to-bl from-yellow-200 to-amber-100 p-2 md:p-4">
+    <nav className="fixed w-full shadow flex justify-between items-center bg-linear-to-bl from-secondary/90 to-secondary p-2 md:p-4">
       <Link to={"/"}>
         <h1 className="text-2xl font-bold">Justin Klitgaard</h1>
       </Link>
