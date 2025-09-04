@@ -10,7 +10,6 @@ import {
 
 import { FaGithub, FaLink } from "react-icons/fa";
 
-import LinkStyling from "./LinkStyling";
 import StackAccordion from "./StackAccordion";
 
 interface ProjectCardProps {
