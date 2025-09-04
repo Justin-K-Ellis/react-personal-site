@@ -8,6 +8,7 @@ import {
   CardTitle,
 } from "@/components/ui/card";
 import { FaGithub, FaLink } from "react-icons/fa";
+
 import StackAccordion from "./StackAccordion";
 
 interface ProjectCardProps {
