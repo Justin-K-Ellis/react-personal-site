@@ -19,7 +19,7 @@ export default function Contact() {
               <LinkStyling>
                 <a
                   href={text.contact.github}
-                  className="text-xl underline flex gap-1 items-center"
+                  className="text-xl underline flex gap-1 items-center text-primary-foreground"
                 >
                   GitHub
                   <SiGithub />
@@ -30,7 +30,7 @@ export default function Contact() {
               <LinkStyling>
                 <a
                   href={text.contact.linkedin}
-                  className="text-xl underline flex gap-1 items-center"
+                  className="text-xl underline flex gap-1 items-center text-primary-foreground"
                 >
                   LinkedIn
                   <SiLinkedin />

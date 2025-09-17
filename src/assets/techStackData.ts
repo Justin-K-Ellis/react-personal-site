@@ -50,7 +50,7 @@ const frontend: ITech[] = [
     logo: SiVuedotjs,
   },
   {
-    name: "Tailwind CSS",
+    name: "Tailwind",
     logo: SiTailwindcss,
   },
   {

@@ -18,14 +18,14 @@
   --card-foreground: oklch(0.3211 0 0);
   --popover: oklch(1 0 0);
   --popover-foreground: oklch(0.3211 0 0);
-  --primary: oklch(0.5978 0.1014 152.8822);
-  --primary-foreground: oklch(1 0 0);
-  --secondary: oklch(0.6937 0.0854 261.5336);
+  --primary: oklch(0.7629 0.0477 194.4909);
+  --primary-foreground: oklch(0.3211 0 0);
+  --secondary: oklch(0.5944 0.0772 254.0278);
   --secondary-foreground: oklch(1 0 0);
   --muted: oklch(0.8741 0.0177 99.6322);
   --muted-foreground: oklch(0.5382 0 0);
-  --accent: oklch(0.7857 0.0721 211.814);
-  --accent-foreground: oklch(0.3211 0 0);
+  --accent: oklch(0.6965 0.0591 248.6872);
+  --accent-foreground: oklch(1 0 0);
   --destructive: oklch(0.6322 0.131 21.4751);
   --destructive-foreground: oklch(1 0 0);
   --border: oklch(0.8699 0 0);
@@ -44,7 +44,7 @@
   --sidebar-accent-foreground: oklch(0.3211 0 0);
   --sidebar-border: oklch(0.8699 0 0);
   --sidebar-ring: oklch(0.5978 0.1014 152.8822);
-  --font-sans: Ubuntu, ui-sans-serif, sans-serif, system-ui;
+  --font-sans: Noto Sans, ui-sans-serif, sans-serif, system-ui;
   --font-serif: Noto Serif, ui-serif, serif;
   --font-mono: Google Sans Code, ui-monospace, monospace;
   --radius: 0rem;
@@ -65,24 +65,24 @@
 }
 
 .dark {
-  --background: oklch(0.2342 0.0065 258.3633);
-  --foreground: oklch(0.9219 0 0);
-  --card: oklch(0.3189 0.0055 236.686);
-  --card-foreground: oklch(0.9219 0 0);
+  --background: oklch(0.3244 0.0229 264.182);
+  --foreground: oklch(0.6965 0.0591 248.6872);
+  --card: oklch(0.3792 0.029 266.4705);
+  --card-foreground: oklch(0.4157 0.0324 264.1312);
   --popover: oklch(0.3189 0.0055 236.686);
   --popover-foreground: oklch(0.9219 0 0);
-  --primary: oklch(0.5978 0.1014 152.8822);
-  --primary-foreground: oklch(1 0 0);
-  --secondary: oklch(0.5845 0.0616 244.2612);
-  --secondary-foreground: oklch(0.9219 0 0);
+  --primary: oklch(0.7629 0.0477 194.4909);
+  --primary-foreground: oklch(0.4157 0.0324 264.1312);
+  --secondary: oklch(0.7746 0.0622 217.469);
+  --secondary-foreground: oklch(0.4157 0.0324 264.1312);
   --muted: oklch(0.3867 0 0);
   --muted-foreground: oklch(0.7155 0 0);
   --accent: oklch(0.6937 0.0854 261.5336);
-  --accent-foreground: oklch(0.9219 0 0);
+  --accent-foreground: oklch(0.4157 0.0324 264.1312);
   --destructive: oklch(0.6322 0.131 21.4751);
   --destructive-foreground: oklch(1 0 0);
-  --border: oklch(0.3867 0 0);
-  --input: oklch(0.3867 0 0);
+  --border: oklch(0.4157 0.0324 264.1312);
+  --input: oklch(0.4523 0.0352 264.1312);
   --ring: oklch(0.5978 0.1014 152.8822);
   --chart-1: oklch(0.5978 0.1014 152.8822);
   --chart-2: oklch(0.5845 0.0616 244.2612);
@@ -97,7 +97,7 @@
   --sidebar-accent-foreground: oklch(0.9219 0 0);
   --sidebar-border: oklch(0.3867 0 0);
   --sidebar-ring: oklch(0.5978 0.1014 152.8822);
-  --font-sans: Ubuntu, ui-sans-serif, sans-serif, system-ui;
+  --font-sans: Noto Sans, ui-sans-serif, sans-serif, system-ui;
   --font-serif: Noto Serif, ui-serif, serif;
   --font-mono: Google Sans Code, ui-monospace, monospace;
   --radius: 0rem;

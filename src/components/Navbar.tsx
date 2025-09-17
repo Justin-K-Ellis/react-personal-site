@@ -6,7 +6,9 @@ export default function Navbar() {
   return (
     <nav className="fixed w-full shadow flex justify-between items-center bg-linear-to-bl from-secondary/90 to-secondary p-2 md:p-4">
       <Link to={"/"}>
-        <h1 className="text-2xl font-bold">Justin Klitgaard</h1>
+        <h1 className="text-2xl text-secondary-foreground font-bold">
+          Justin Klitgaard
+        </h1>
       </Link>
       <div className="flex gap-1 md:gap-4">
         <LinkStyling>
